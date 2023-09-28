@@ -3,7 +3,7 @@ export default function intro() {
     <>
       <section class="hero-firstsection">
         <div class="w-full flex justify-center  mt-5">
-        <img class=" h-64  w-64   rounded-t-[150px] rounded-bl-[150px]" src="/p.jpg"/>
+        <img class=" h-64  w-64   rounded-t-[150px] rounded-bl-[150px]" src="p.jpg"/>
         </div>
 
         <div class="hero-leftsection ">
