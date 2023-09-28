@@ -3,7 +3,7 @@ export default function Footer(){
     return(
         <>
         
-        <footer>
+        <footer class="w-full h-auto static bottom-0">
         <div class="footerfirst">
 
             <div class="footerlogo"><h4>DESIGNED BY <spam>PURUSHOTHAM</spam></h4></div>
