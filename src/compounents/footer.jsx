@@ -1,30 +1,21 @@
-export default function Footer(){
-
-    return(
-        <>
+export default function Footer() {
+  return (
+    <>
+      <footer class="w-full h-auto static bottom-0 text-[15px] xl:text-xl font-bold bg-white mt-20">
         
-        <footer class="w-full h-auto static bottom-0">
-        <div class="footerfirst">
-
-            <div class="footerlogo"><h4>DESIGNED BY <spam>PURUSHOTHAM</spam></h4></div>
-            <div class="footercontent1">
-                <ul>
-                    <li><a href="/">home</a></li>
-                    <li><a href="/">about</a></li>
-                    <li><a href="/">services</a></li>
-                    <li><a href="/">contact</a></li>
-                    <li><a href="/">projects</a></li>
-                    
-                </ul>
-            </div>
-            
-           
+          <div class="flex  justify-center">
+            <h4>
+              DESIGNED BY <spam>PURUSHOTHAM</spam>
+            </h4>
+          </div>
+      
+     
+        <div>
+          <h4 class="text-center text-[14px] p-3  xl:text-xl">
+            Copyright © 2023 Purushotham. All Rights Reserved
+          </h4>
         </div>
-        <div class="footersecond">
-            <h4>Copyright © 2023 Purushotham. All Rights Reserved</h4>
-        </div>
-        </footer>
-        
-        </>
-    )
+      </footer>
+    </>
+  );
 }
