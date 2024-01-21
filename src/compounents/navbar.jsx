@@ -26,7 +26,7 @@ export default function Navbar() {
           </li>
           </a>
           <a href="#skillsection">  
-          <li class="hover:bg-black p-1 rounded-md hover:text-white w-full lg:w-auto">
+          <li class="hover:bg-black p-1 rounded-md hover:text-white w-full lg:w-auto ">
             Skills
           </li>
           </a>
